@@ -63,6 +63,7 @@ or start your script in the FightingICE installed path or just change the defual
 
 Set the opponent AI when calling env.reset(), for example:
 ```python
+from gym_fightingice.envs.Machete import Machete
 env.reset(p2=Machete)
 ``` 
 p2 can be an AI python class or a string for the name of an AI Java class. 
